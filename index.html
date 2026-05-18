@@ -450,13 +450,18 @@ footer { background:var(--black);border-top:1px solid var(--border);padding:60px
 /* ═══ RESPONSIVE ═══ */
 @media(max-width:960px){
   nav{padding:18px 24px}.nav-links,.nav-cta{display:none}
-  #hero{padding:110px 0 64px}
+  #hero{padding:96px 0 48px}
   .section-inner{padding:0 24px}
-  .section-break{padding:0 24px 28px}
+  .section-break{padding:0 24px 4px}
+  .section-break-inner{min-height:0}
   .section-break img{max-height:420px}
-  .stats-bar{padding:40px 24px;gap:40px}
-  .why-layout,.lifestyle-layout{grid-template-columns:1fr;gap:60px}
-  .pv-layout{grid-template-columns:1fr;gap:60px}
+  .stats-bar{padding:28px 24px;gap:24px}
+  #benefits,#why,#testimonials,#lifestyle{padding:48px 0}
+  #product-vertical,#cta{padding:56px 0}
+  .benefits-header,.showcase-header,.testimonials-header{margin-bottom:28px}
+  #product-vertical .reveal[style],#cta .cta-sub{margin-bottom:24px}
+  .why-layout,.lifestyle-layout{grid-template-columns:1fr;gap:32px}
+  .pv-layout{grid-template-columns:1fr;gap:32px}
   .pv-left,.pv-right{padding:0}
   .pv-frame{max-width:280px}
   footer{padding:40px 24px}.footer-inner{flex-direction:column;text-align:center}
@@ -550,7 +555,7 @@ footer { background:var(--black);border-top:1px solid var(--border);padding:60px
 
 <section class="section-break reveal">
   <div class="section-break-inner">
-    <img src="image2.jpeg" alt="Transformation preview">
+    <!-- <img src="image2.jpeg" alt="Transformation preview"> -->
   </div>
 </section>
 
@@ -584,7 +589,7 @@ footer { background:var(--black);border-top:1px solid var(--border);padding:60px
 
 <section class="section-break reveal">
   <div class="section-break-inner">
-    <img src="image3.jpeg" alt="System preview">
+    <!-- <img src="image3.jpeg" alt="System preview"> -->
   </div>
 </section>
 
@@ -657,7 +662,7 @@ footer { background:var(--black);border-top:1px solid var(--border);padding:60px
 
 <section class="section-break reveal">
   <div class="section-break-inner">
-    <img src="image4.jpeg" alt="Lifestyle preview">
+    <!-- <img src="image4.jpeg" alt="Lifestyle preview"> -->
   </div>
 </section>
 
